@@ -4,12 +4,20 @@
     box-sizing: border-box;
 }
 
-#rootson{
+.classAdded{
     height: 100vh;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.sea{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS6WA4zVGLgdBdj5FEsn-gWfu6gSj8ssGO9w&usqp=CAU');
+}
+
+.loan{
+    background-image: url('https://img.freepik.com/premium-photo/bright-green-lawn-close-up-view-from-acid-green-color_96872-896.jpg?w=740');
 }
 
 .green{

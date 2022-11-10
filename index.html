@@ -13,18 +13,19 @@
 <body>
 
     <div id="root">
-        <div v-bind:class="dinamicClass">
+        <div id="rootson" v-bind:class="dinamicClass">
             <h1>{{ message }}</h1>
             <button class="acid-button" @click="clickItAtAll">
                 {{ btnText }}
             </button>
-            <img :src="image" alt="">
         </div>
         
     </div>
+
     
     <!-- vue.js script -->
-    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <script src="./assets/vue.js/vue@2.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2"></script> -->
 
 
     <!-- my script.js -->
