@@ -14,12 +14,18 @@ var app = new Vue({
 
     data: {
         message: `Hey, I'm your first vue.js' sheet!!!!!!!`,
+        btnText: `clickMe At All !!!!!!!`,
         image: `https://img.freepik.com/premium-photo/bright-green-lawn-close-up-view-from-acid-green-color_96872-896.jpg?w=740`,
+        dinamicClass: `green`,
     },
 
     methods: {
         clickItAtAll: function(){
-            return this.bgc = ".green";
+            if( this.dinamicClass == 'green' ){
+                return this.dinamicClass ='blue';
+            } else {
+                return this.dinamicClass ='green';
+            }
         }
     }
 })

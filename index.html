@@ -13,8 +13,14 @@
 <body>
 
     <div id="root">
-        <h1>{{ message }}</h1>
-        <img :src="image" alt="">
+        <div v-bind:class="dinamicClass">
+            <h1>{{ message }}</h1>
+            <button class="acid-button" @click="clickItAtAll">
+                {{ btnText }}
+            </button>
+            <img :src="image" alt="">
+        </div>
+        
     </div>
     
     <!-- vue.js script -->
